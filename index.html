@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Lyn Lam" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bear, Ninja, Hunter Game</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <h2 id="title">Bear, Ninja, Hunter</h2>
+
+      <p>Play against the computer!</p>
+      <li>The Bear Beats the Hunter.</li>
+      <li>The Hunter beats the Ninja.</li>
+      <li>And the Ninja beats the Bear.</li>
+      <p>Click a button below to select your choice.</p>
+
+      <button onclick="bear();">Bear</button>
+      <button onclick="ninja();">Ninja</button>
+      <button onclick="hunter();">Hunter</button>
+    </div>
+
+    <div id="farewell-container">
+      <h3 id="result"></h3>
+      <div id="stat"></div>
+      <button id="playAgain" onclick="location.reload()">Play Again?</button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
